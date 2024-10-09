@@ -1,0 +1,3 @@
+import qrcode as qr
+img= qr.make("https://www.irctc.co.in/nget/train-search")
+img.save("sachin")
